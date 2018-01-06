@@ -135,7 +135,7 @@ if testMode:
 
 PerformDrive(0.5)
 PerformSpin(+45)
-PerformMove(0.7,0.2,10)
+PerformMove(1,1,10)
 
 
 

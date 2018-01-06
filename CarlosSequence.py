@@ -111,24 +111,28 @@ if testMode:
 ### Our sequence of motion goes here ###
 
 # Draw a 40cm square
-for i in range(4):
-    PerformDrive(+0.4)
-    PerformSpin(+90)
+# for i in range(4):
+#     PerformDrive(+0.4)
+#     PerformSpin(+90)
+#
+# # Move to the middle of the square
+# PerformSpin(+45)
+# distanceToOtherCorner = math.sqrt(0.4**2 + 0.4**2) # Pythagorean theorem
+# PerformDrive(distanceToOtherCorner / 2.0)
+# PerformSpin(-45)
+#
+# # Spin each way inside the square
+# PerformSpin(+360)
+# PerformSpin(-360)
+#
+# # Return to the starting point
+# PerformDrive(-0.2)
+# PerformSpin(+90)
+# PerformDrive(-0.2)
+# PerformSpin(-90)
+# PerformSpin(+45)
+# PerformSpin(-37)
 
-# Move to the middle of the square
-PerformSpin(+45)
-distanceToOtherCorner = math.sqrt(0.4**2 + 0.4**2) # Pythagorean theorem
-PerformDrive(distanceToOtherCorner / 2.0)
-PerformSpin(-45)
+PerformDrive(0.5)
+PerformDrive(-0.5)
 
-# Spin each way inside the square
-PerformSpin(+360)
-PerformSpin(-360)
-
-# Return to the starting point
-PerformDrive(-0.2)
-PerformSpin(+90)
-PerformDrive(-0.2)
-PerformSpin(-90)
-PerformSpin(+45)
-PerformSpin(-37)

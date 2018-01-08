@@ -138,5 +138,9 @@ PerformMove(0.7,0.2,28)
 PerformDrive(-0.2)
 PerformDrive(3)
 PerformSpin(90)
+PerformSpin(-5)
+PerformDrive(1.5)
+PerformSpin(90)
+PerformDrive(3)
 
 

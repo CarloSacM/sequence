@@ -134,7 +134,6 @@ if testMode:
 # PerformSpin(-37)
 
 PerformDrive(0.5)
-PerformSpin(+45)
 PerformMove(0.7,0.2,20)
 
 
